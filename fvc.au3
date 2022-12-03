@@ -179,12 +179,12 @@ EndFunc   ;==>Quit
 
 Func Capture()
 	If $FRSTPAGE = True Then
-		_ScreenCapture_Capture($FilePath & $PgCntr & ".bmp", $P1TL[0], $P1TL[1], $P1BR[0], $P1BR[1], False) ;cap left page
+		_ScreenCapture_Capture($FilePath & $PgCntr & ".bmp", $P1TL[0], $P1TL[1], $P1BR[0] - 1, $P1BR[1] - 1, False) ;cap left page
 		$PgCntr = $PgCntr + 1
 	EndIf
 
 	If $SCNDPAGE = True Then
-		_ScreenCapture_Capture($FilePath & $PgCntr & ".bmp", $P2TL[0], $P2TL[1], $P2BR[0], $P2BR[1], False) ;cap right page
+		_ScreenCapture_Capture($FilePath & $PgCntr & ".bmp", $P2TL[0], $P2TL[1], $P2BR[0] - 1, $P2BR[1] - 1, False) ;cap right page
 		$PgCntr = $PgCntr + 1
 	EndIf
 
