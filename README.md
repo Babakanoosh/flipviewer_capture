@@ -53,3 +53,11 @@ Controls:
   
   ESC               Quit the program
 </pre>
+
+//
+//
+//
+//
+
+
+![](checkit.gif) Now check it out!
