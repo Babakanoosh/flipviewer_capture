@@ -54,10 +54,16 @@ Controls:
   ESC               Quit the program
 </pre>
 
-//
-//
-//
-//
+<br />
+<br />
+<br />
+<br />
+<br />
+        
 
 
-![](checkit.gif) Now check it out!
+<p width="100%" align="center">
+Now check it out!
+<br/>
+<img align="center" width="32%" src="checkit.gif">
+</p>
