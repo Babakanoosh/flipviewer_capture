@@ -11,11 +11,11 @@ Uncheck a page box if it is not going to be captured.
 
 How the screen coordinates are defined: X is horizonal and Y is vertical and the point of origin is the top left of the screen.
 
-+--------X
-|
-|
-|
-Y
++--------X<br />
+|<br />
+|<br />
+|<br />
+Y<br />
 
 
 
