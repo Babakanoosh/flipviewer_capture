@@ -11,18 +11,19 @@ Uncheck a page box if it is not going to be captured.
 
 How the screen coordinates are defined: X is horizonal and Y is vertical and the point of origin is the top left of the screen.
 
-+--------X<br />
-|<br />
-|<br />
-|<br />
-Y<br />
-
+<pre>
++--------X
+|
+|
+|
+Y
+</pre>
 
 
 How the page capture box is defined
 
 Top left point(#)  
-
+<pre>
 #-------------+
 |             |
 |             |
@@ -30,14 +31,13 @@ Top left point(#)
 |             |
 |             |
 +-------------@
-
+</pre>
 Bottom right point (@)
 
 
 
-
 Controls:
-
+<pre>
   Shift + Alt + Q   Set point for top left of first-page/left-page
   Shift + Alt + A   Set point for bottom right of first-page/left-page
 
@@ -50,3 +50,4 @@ Controls:
   Shift + Alt + X   Draw box of the set capture area of second/right page
 
   Shift + Alt + C   Capture the pages
+</pre>
