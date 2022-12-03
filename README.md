@@ -50,4 +50,6 @@ Controls:
   Shift + Alt + X   Draw box of the set capture area of second/right page
 
   Shift + Alt + C   Capture the pages
+  
+  ESC               Quit the program
 </pre>
