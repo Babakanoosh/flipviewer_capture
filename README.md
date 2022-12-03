@@ -56,6 +56,27 @@ Controls:
 
 <br />
 <br />
+
+Example run of the program:
+<br />
+<img align="center" width="50%" src="/Examples/Example Run.png">
+<br />
+<br />
+<br />
+Example capture of "page 1" (Cyan box)
+<br />
+<img align="center" width="30%" src="/Examples/1.png">
+<br />
+<br />
+<br />
+Example capture of "page 2" (Magenta box)
+<br />
+<img align="center"  src="/Examples/2.png">
+
+
+
+<br />
+<br />
 <br />
 <br />
 <br />
