@@ -29,9 +29,9 @@ $MGui = GUICreate("Page capture", 330, 256, 50, 50)
 GUISetOnEvent($GUI_EVENT_CLOSE, "MGuiClose")
 
 $LP1TL = GUICtrlCreateLabel("P1 TL  X", 10, 80, 48, 17)
-$LP1BR = GUICtrlCreateLabel("P1 BR  Y", 10, 112, 56, 17)
+$LP1BR = GUICtrlCreateLabel("P1 BR  X", 10, 112, 56, 17)
 $LP2TL = GUICtrlCreateLabel("P2 TL  X", 10, 184, 48, 17)
-$LP2BR = GUICtrlCreateLabel("P2 BR  Y", 10, 216, 56, 17)
+$LP2BR = GUICtrlCreateLabel("P2 BR  X", 10, 216, 56, 17)
 
 $LMouse = GUICtrlCreateLabel("Mouse:", 10, 16, 100, 17)
 
@@ -193,8 +193,13 @@ Func Capture()
 EndFunc   ;==>Capture
 
 Func Hide_Mag()
-	GUISetState(@SW_HIDE, $GUI)
-	$Mag_Show = 0
+	If $Mag_Show = True Then
+		GUISetState(@SW_HIDE, $GUI)
+		$Mag_Show = False
+	Else
+		GUISetState(@SW_SHOW, $GUI)
+		$Mag_Show = True
+	EndIf
 EndFunc   ;==>Hide_Mag
 
 
