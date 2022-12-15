@@ -1,5 +1,6 @@
 # flipviewer_capture
 Autoit Version: v3.3.16.1
+[AutoIt's download page](https://www.autoitscript.com/site/autoit/downloads/ "https://www.autoitscript.com/site/autoit/downloads/")
 
 Created to capture flipviewer pages to BMP. (can also just be used to capture up to two boxed areas on the screen)
 
